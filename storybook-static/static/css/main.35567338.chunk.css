@@ -1,0 +1,64 @@
+button {
+    border-radius: 2px;
+    padding: 5px 25px;
+    cursor: pointer;
+}
+
+.button-primary {
+    background-color: #33a0ff;
+    color: white;
+    border: #33a0ff;
+}
+.button-danger {
+    background-color: red;
+    color: white;
+    border: red
+}
+
+.button-warning {
+    background-color: goldenrod;
+    color: black;
+    border: goldenrod;
+}
+
+.button-success {
+    background-color: green;
+    color: white;
+    border: green;
+}
+
+.button-default {
+    background-color: black;
+    color: white;
+    border:  black;
+}
+button {
+    border-radius: 2px;
+    padding: 5px 25px;
+    cursor: pointer;
+}
+
+.button-outprimary {
+    background-color: white;
+    color: #33A0FF;
+    border: 1px solid #33A0FF;
+}
+
+.button-outdanger {
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+}
+
+.button-outsuccess {
+    background-color: white;
+    color: green;
+    border:  1px solid green;
+}
+
+.button-outwarning {
+    background-color: white;
+    color: 
+}
+
+/*# sourceMappingURL=main.35567338.chunk.css.map*/
