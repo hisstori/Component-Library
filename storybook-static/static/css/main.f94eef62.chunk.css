@@ -58,7 +58,8 @@ button {
 
 .button-outwarning {
     background-color: white;
-    color: 
+    color: goldenrod;
+    border: 1px solid goldenrod;
 }
 
-/*# sourceMappingURL=main.35567338.chunk.css.map*/
+/*# sourceMappingURL=main.f94eef62.chunk.css.map*/
