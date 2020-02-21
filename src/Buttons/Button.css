@@ -3,3 +3,32 @@ button {
     padding: 5px 25px;
     cursor: pointer;
 }
+
+.button-primary {
+    background-color: #33a0ff;
+    color: white;
+    border: #33a0ff;
+}
+.button-danger {
+    background-color: red;
+    color: white;
+    border: red
+}
+
+.button-warning {
+    background-color: goldenrod;
+    color: black;
+    border: goldenrod;
+}
+
+.button-success {
+    background-color: green;
+    color: white;
+    border: green;
+}
+
+.button-default {
+    background-color: black;
+    color: white;
+    border:  black;
+}

@@ -1,0 +1,28 @@
+button {
+    border-radius: 2px;
+    padding: 5px 25px;
+    cursor: pointer;
+}
+
+.button-outprimary {
+    background-color: white;
+    color: #33A0FF;
+    border: 1px solid #33A0FF;
+}
+
+.button-outdanger {
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+}
+
+.button-outsuccess {
+    background-color: white;
+    color: green;
+    border:  1px solid green;
+}
+
+.button-outwarning {
+    background-color: white;
+    color: 
+}

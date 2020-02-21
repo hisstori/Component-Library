@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import './Button.css';
+import './Button.css'
 import Button from './Button';
 
 storiesOf('Button', module)
@@ -12,21 +12,15 @@ storiesOf('Button', module)
         label="Danger"
         type="danger"
     />)
-    .add('Warning', () => <Button
-        label="Warning"
-        type="warning"
-    />)
     .add('Success', () => <Button
         label="Success"
-        type="success"        
+        type="success"
     />)
-    .add('Large Primary', () => <Button
-        label="Large Primary"
-        type="primary"
-        large
+    .add('Warning', () => <Button
+        label="Warning"
+        type="warning"        
     />)
-    .add('Large Danger', () => <Button
-        label="Large Danger"
-        type="danger"
-        large
+    .add('Default', () => <Button
+        label="Default"
+        type="default"
     />)
