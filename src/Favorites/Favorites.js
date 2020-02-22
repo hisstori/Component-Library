@@ -1,14 +1,13 @@
 import React from 'react';
-// import cart from './cart.svg';
 
 
-const Cart = (props) => {
+const Favorites = (props) => {
     let classList = '';
-    let types = ['addcart', 'cart']
+    let types = ['favorites', 'heart']
     if (types.includes(props.type)) {
         classList += ` button-${props.type}`
     }
     return <button className={classList}>{props.label}</button>
 }
 
-export default Cart;
+export default Favorites;
