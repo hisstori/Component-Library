@@ -6,4 +6,6 @@ import Email from './Email';
 
 storiesOf('Email', module)
     .add('Email', () => <Email
-        label='Email')
+        label='Email'
+        type='email'
+    />)
