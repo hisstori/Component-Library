@@ -24,3 +24,28 @@ storiesOf('Button', module)
         label="Default"
         type="default"
     />)
+    .add('M.Primary', () => <Button
+        label='M.Primary'
+        type='primary'
+        medium
+    />)
+    .add('M.Danger', () => <Button
+        label='M.Danger'
+        type='danger'
+        medium
+    />)
+    .add('M.Success', () => <Button
+        label='M.Success'
+        type='success'
+        medium
+    />)
+    .add('M.Warning', () => <Button
+        label='M.Warning'
+        type='warning'
+        medium
+    />)
+    .add('M.Default', () => <Button
+        label='M.Default'
+        type='default'
+        medium
+    />)

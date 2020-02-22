@@ -25,3 +25,8 @@ storiesOf('ButtonOutline', module)
         label='OutDefault'
         type='outdefault'
     />)
+    .add('M-OutPrimary', () => <ButtonOutline
+        label='M-OutPrimary'
+        type='outprimary'
+    />)
+        

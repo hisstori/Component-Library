@@ -6,6 +6,9 @@ const ButtonOutline = (props) => {
     if (types.includes(props.type))  {
         classList += ` button-${props.type}`
     } 
+    if (props.medium) {
+        classList += ` button-medium`
+    }
     return <button className={classList}>{props.label}</button>
 }
 

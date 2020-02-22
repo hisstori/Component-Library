@@ -2,34 +2,35 @@ button {
     border-radius: 2px;
     padding: 5px 25px;
     cursor: pointer;
+    outline: none;
 }
 
 .button-fadeprimary {
-    background-color: #33a0ff1a;
+    background-color: #3997e91a;
     color: #33a0ff;
-    border: 1px solid white;
+    border: 1px solid #ffffff;
 }
 
 .button-fadedanger {
     background-color: #ff48581a;
     color: #ff4252;
-    border: 1px solid white;
+    border: 1px solid #ffffff;
 }
 
 .button-fadesuccess {
     background-color: #0ad00a1a;
     color: #0ad00a;
-    border: 1px solid white;
+    border: 1px solid #ffffff;
 }
 
 .button-fadewarning {
     background-color: #ffc6001a;
     color: #ffc600;
-    border: 1px solid #ffc6001a;
+    border: 1px solid #ffffff;
 }
 
 .button-fadedefault {
     background-color: #22262a1a;
     color: #22262a;
-    border: 1px solid #22262a1a;
+    border: 1px solid #ffffff;
 }

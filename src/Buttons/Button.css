@@ -6,29 +6,49 @@ button {
 
 .button-primary {
     background-color: #33a0ff;
-    color: white;
+    color: #ffffff;
     border: #33a0ff;
 }
+
+.button-primary:hover {
+    background-color: #2e90e5;
+}
 .button-danger {
-    background-color: red;
-    color: white;
-    border: red
+    background-color: #ff4858;
+    color: #ffffff;
+    border: #ff4858
 }
 
-.button-warning {
-    background-color: goldenrod;
-    color: black;
-    border: goldenrod;
+.button-danger:hover {
+    background-color: #f53848;
 }
 
 .button-success {
-    background-color: green;
-    color: white;
-    border: green;
+    background-color: #0ad00a;
+    color: #ffffff;
+    border: #0ad00a;
+}
+
+.button-success:hover {
+    background-color: #07c107;
+}
+
+.button-warning {
+    background-color: #ffc600;
+    color: #22262a;
+    border: #ffc600;
+}
+
+.button-warning:hover {
+    background-color: #ebb600;
 }
 
 .button-default {
-    background-color: black;
-    color: white;
-    border:  black;
+    background-color: #22262a;
+    color: #ffffff;
+    border:  #22262a;
+}
+
+.button-default:hover {
+    background-color: #13161a;
 }
