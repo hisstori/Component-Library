@@ -29,4 +29,19 @@ storiesOf('ButtonOutline', module)
         label='M-OutPrimary'
         type='outprimary'
     />)
-        
+    .add('M-OutDanger', () => <ButtonOutline
+        label='M-OutDanger'
+        type='outdanger'
+    />)
+    .add('M-OutSuccess', () => <ButtonOutline
+        label='M-OutSuccess'
+        type='outsuccess'
+    />)
+    .add('M-OutWarning', () => <ButtonOutline
+        label='M-OutWarning'
+        type='outwarning'
+    />)
+    .add('M-OutDefault', () => <ButtonOutline
+        label='M-OutDefeault'
+        type='outdefault'
+    />)
