@@ -9,7 +9,9 @@ button {
     color: #33a0ff;
     border: 1px solid #ffffff;
     background-image: url('../cart.svg');
-    background-position: left;
-    background-size: contain 25%;
+    /* background-position: left; */
+    background-position-x: 0.3cm; 
+    background-position-y: 0.13cm;
+    background-size: 12px;
     background-repeat: no-repeat;
 }
