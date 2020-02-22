@@ -10,7 +10,6 @@ const Button = (props) => {
         classList += ` button-medium`
     }
     return <button className={classList}>{props.label}</button>
-
 }
 
 export default Button;

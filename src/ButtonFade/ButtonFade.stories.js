@@ -25,3 +25,23 @@ storiesOf('ButtonFade', module)
         label='FadeDefault'
         type='fadedefault'
     />)
+    .add('M-FadePrimary', () => <ButtonFade
+        label='M-FadePrimary'
+        type='fadeprimary'
+    />)
+    .add('M-FadeDanger', () => <ButtonFade
+        label='M-FadeDanger'
+        type='fadedanger'
+    />)
+    .add('M-FadeSuccess', () => <ButtonFade
+        label='M-FadeSuccess'
+        type='fadesuccess'
+    />)
+    .add('M-FadeWarning', () => <ButtonFade
+        label='M-FadeWarning'
+        type='fadewarning'
+    />)
+    .add('M-FadeDefault', () => <ButtonFade
+        label='M-FadedDefault'
+        type='fadedefault'
+    />)
