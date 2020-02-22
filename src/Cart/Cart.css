@@ -1,0 +1,15 @@
+button {
+    border-radius: 2px;
+    padding: 5px 30px;
+    cursor: pointer;
+}
+
+.button-cart {
+    background-color: #33a0ff1a;
+    color: #33a0ff;
+    border: 1px solid #ffffff;
+    background-image: url('../cart.svg');
+    background-position: left;
+    background-size: contain 25%;
+    background-repeat: no-repeat;
+}
