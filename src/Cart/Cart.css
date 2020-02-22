@@ -7,9 +7,9 @@ button {
 .button-addcart {
     background-color: #33a0ff1a;
     color: #33a0ff;
+    align-self: center;
     border: 1px solid #ffffff;
     background-image: url('../cart.svg');
-    /* background-position: left; */
     background-position-x: 0.3cm; 
     background-position-y: 0.13cm;
     background-size: 12px;
