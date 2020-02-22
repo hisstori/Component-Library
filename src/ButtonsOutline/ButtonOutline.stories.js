@@ -9,7 +9,19 @@ storiesOf('ButtonOutline', module)
         label="OutPrimary"
         type="outprimary"
     />)
-    // .add('OutlineD', () => <Button
-    //     label='Outline-D'
-    //     type='outline-d'
-    // />)
+    .add('OutDanger', () => <ButtonOutline
+        label='OutDanger'
+        type='outdanger'
+    />)
+    .add('OutSuccess', () => <ButtonOutline
+        label='OutSuccess'
+        type='outsuccess'
+    />)
+    .add('OutWarning', () => <ButtonOutline
+        label='OutWarning'
+        type='outwarning'
+    />)
+    .add('OutDefault', () => <ButtonOutline
+        label='OutDefault'
+        type='outdefault'
+    />)
