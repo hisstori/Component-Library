@@ -1,4 +1,28 @@
 input {
     border-radius: 2px;
-    padding: 5px 20px;
+}
+
+label {
+    font-size: 12px;
+}
+
+.input-email {
+    background-color: #ffffff;
+    border: 2px solid #f1f3f4;
+    padding: 2px 30px 2px 2px;
+    outline: none;
+}
+
+.input-email-medium {
+    background-color: #ffffff;
+    border: 2px solid #f1f3f4;
+    padding: 4px 30px 4px 4px;
+    outline: none;
+}
+
+.input-email-large {
+        background-color: #ffffff;
+        border: 2px solid #f1f3f4;
+        padding: 8px 30px 8px 8px;
+        outline: none;
 }
