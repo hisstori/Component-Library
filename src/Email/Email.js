@@ -6,9 +6,6 @@ const InputText = (props) => {
     if (types.includes(props.type)) {
         classList += ` input-${props.type}`
     }
-    // if (props.medium) {
-    //     classList += ` input-medium`
-    // }
     return <div><label>Email</label><br/><input className={classList} placeholder='Email'></input></div>
 }
 

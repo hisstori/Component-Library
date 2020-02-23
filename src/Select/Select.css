@@ -1,0 +1,10 @@
+button {
+    border-radius: 2px;
+}
+
+.button-select {
+    background-color: #fafafb;
+    border: 2px solid #ffffff;
+    padding: 5px 50px 5px 5px;
+    outline: none;
+}
