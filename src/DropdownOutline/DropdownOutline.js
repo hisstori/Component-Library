@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 // import Select from 'react-select';
-import './Select.css';
+import './DropdownOutline.css';
 
 
 
@@ -33,7 +33,7 @@ class Dropdown extends React.Component {
 
     render () {
         return (
-            <div className='dropdown-medium'>Select
+            <div className='dropdown'>Select
                 <select className='button' onClick={this.showDropdownMenu}></select>
 
                 { this.state.displayMenu ? (
