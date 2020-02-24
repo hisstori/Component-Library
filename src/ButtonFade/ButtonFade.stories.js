@@ -28,20 +28,25 @@ storiesOf('ButtonFade', module)
     .add('M-FadePrimary', () => <ButtonFade
         label='M-FadePrimary'
         type='fadeprimary'
+        medium
     />)
     .add('M-FadeDanger', () => <ButtonFade
         label='M-FadeDanger'
         type='fadedanger'
+        medium
     />)
     .add('M-FadeSuccess', () => <ButtonFade
         label='M-FadeSuccess'
         type='fadesuccess'
+        medium
     />)
     .add('M-FadeWarning', () => <ButtonFade
         label='M-FadeWarning'
         type='fadewarning'
+        medium
     />)
     .add('M-FadeDefault', () => <ButtonFade
         label='M-FadedDefault'
         type='fadedefault'
+        medium
     />)

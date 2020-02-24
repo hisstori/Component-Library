@@ -11,6 +11,13 @@ button {
     border: 1px solid #ffffff;
 }
 
+.button-medium {
+    background-color: #3997e91a;
+    color: #33a0ff;
+    border: 1px solid #ffffff;
+    padding: 10px 30px;
+}
+
 .button-fadedanger {
     background-color: #ff48581a;
     color: #ff4252;

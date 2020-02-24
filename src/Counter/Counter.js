@@ -20,9 +20,9 @@ class Counter extends Component {
     return (
       <div className="box">
       <div className="Counter">
-        <button onClick={this.decreaseCount}>-</button>
+        <button className="counts" onClick={this.decreaseCount}>-</button>
         {this.state.count}
-        <button onClick={this.increaseCount}>+</button>
+        <button className='counts' onClick={this.increaseCount}>+</button>
       </div>
       </div>
     )

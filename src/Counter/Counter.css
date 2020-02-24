@@ -1,27 +1,28 @@
 button {
-    display: inline;
-    background-color: #fafafb;
+    display: inline-block;
     color: #33a0ff;
     font-size: 10px;
     font-weight: bold;
     outline: none;
     border: 2px solid #fafafb;
+    background-color: #fafafb;
 }
+/* 
+span{
+  width: 100px;
+} */
 
-div {
-  display: inline;
+.box {
+  display: inline-block;
   background-color:  #fafafb;
-  color: #33a0ff;
+  font-size: 12px;
 }
 
 .counter {
     background-color: #fafafb;
     color: #33a0ff;
-    /* border: 1px solid #ffffff; */
-    /* padding: 10px 15px; */
-    /* background-image: url('../cart.svg');
-    background-position-x: 0.26cm;
-    background-position-y: 0.2cm;
-    background-size: 16px;
-    background-repeat: no-repeat; */
 }
+
+/* .counts {
+  width: 100px;
+} */
