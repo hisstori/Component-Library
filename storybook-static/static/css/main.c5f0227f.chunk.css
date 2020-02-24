@@ -160,18 +160,17 @@ button {
     font-weight: bold;
     outline: none;
     border: 2px solid #fafafb;
-    /* width:; */
 }
 
-div {
+/* div {
   display: inline;
   background-color:  #fafafb;
   color: #33a0ff;
-}
+} */
 
-/* .counter { */
-    /* background-color: #33a0ff1a; */
-    /* color: #33a0ff00; */
+.counter {
+    background-color: #fafafb;
+    color: #33a0ff;
     /* border: 1px solid #ffffff; */
     /* padding: 10px 15px; */
     /* background-image: url('../cart.svg');
@@ -179,10 +178,11 @@ div {
     background-position-y: 0.2cm;
     background-size: 16px;
     background-repeat: no-repeat; */
-/* } */
+}
 .button {
     float: right;
     font-size: 8px;
+    background-color: #fafafb;
     border: 2px solid #fafafb;
     max-width: 200px;
     outline: none;
@@ -281,4 +281,4 @@ button {
     background-repeat: no-repeat;
 }
 
-/*# sourceMappingURL=main.d54b45de.chunk.css.map*/
+/*# sourceMappingURL=main.c5f0227f.chunk.css.map*/
