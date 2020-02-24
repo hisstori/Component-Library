@@ -1,16 +1,20 @@
-import React from 'react';
+import React, { Component } from 'react';
 
 
-const Select = (props) => {
-    let classList = '';
-    let types = ['select', 'select-medium', 'select-large']
-    if (types.includes(props.type)) {
-        classList += ` button-${props.type}`
-    }
-    return <button className={classList}>{props.label}</button>
-}
 
-export default Select;
+
+// =============
+// const Select = (props) => {
+//     let classList = '';
+//     let types = ['select', 'select-medium', 'select-large']
+//     if (types.includes(props.type)) {
+//         classList += ` select-${props.type}`
+//     }
+//     return <select className={classList}>{props.label}</select>
+// }
+
+// export default Select;
+// ===============
 // class Select extends Component {
 //     constructor (props) {
 //         super (props) 
@@ -23,7 +27,7 @@ export default Select;
 //     }
 
 //     render () {
-//         let selectOPtions = this.props.selectOptions;
+//         let selectOptions = this.props.selectOptions;
 //         let options = selectOptions.map((data) => 
 //         <option
 //             key={data.id}
