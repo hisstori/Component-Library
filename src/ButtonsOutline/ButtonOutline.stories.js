@@ -5,43 +5,48 @@ import ButtonOutline from './ButtonOutline';
 // import Button from './Button'
 
 storiesOf('ButtonOutline', module)
-    .add('OutPrimary', () => <ButtonOutline
-        label="OutPrimary"
+    .add('Outline Primary', () => <ButtonOutline
+        label="Do Something"
         type="outprimary"
     />)
-    .add('OutDanger', () => <ButtonOutline
-        label='OutDanger'
+    .add('Outline Danger', () => <ButtonOutline
+        label='Do Something'
         type='outdanger'
     />)
-    .add('OutSuccess', () => <ButtonOutline
-        label='OutSuccess'
+    .add('Outline Success', () => <ButtonOutline
+        label='Do Something'
         type='outsuccess'
     />)
-    .add('OutWarning', () => <ButtonOutline
-        label='OutWarning'
+    .add('Outline Warning', () => <ButtonOutline
+        label='Do Something'
         type='outwarning'
     />)
-    .add('OutDefault', () => <ButtonOutline
-        label='OutDefault'
+    .add('Outline Default', () => <ButtonOutline
+        label='Do Something'
         type='outdefault'
     />)
-    .add('M-OutPrimary', () => <ButtonOutline
-        label='M-OutPrimary'
+    .add('Medium Outline Primary', () => <ButtonOutline
+        label='Do Something'
         type='outprimary'
+        medium
     />)
-    .add('M-OutDanger', () => <ButtonOutline
-        label='M-OutDanger'
+    .add('Medium Outline Danger', () => <ButtonOutline
+        label='Do Something'
         type='outdanger'
+        medium
     />)
-    .add('M-OutSuccess', () => <ButtonOutline
-        label='M-OutSuccess'
+    .add('Medium Outline Success', () => <ButtonOutline
+        label='Do Something'
         type='outsuccess'
+        medium
     />)
-    .add('M-OutWarning', () => <ButtonOutline
-        label='M-OutWarning'
+    .add('Medium Outline Warning', () => <ButtonOutline
+        label='Do Something'
         type='outwarning'
+        medium
     />)
-    .add('M-OutDefault', () => <ButtonOutline
-        label='M-OutDefeault'
+    .add('Medium Outline Default', () => <ButtonOutline
+        label='Do Something'
         type='outdefault'
+        medium
     />)

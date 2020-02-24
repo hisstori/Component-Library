@@ -1,8 +1,7 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import './Voucher.css'
-import Voucher from './Voucher'
-
+import Voucher from './Voucher';
 
 storiesOf('Voucher', module)
     .add('Voucher', () => <Voucher
@@ -10,5 +9,4 @@ storiesOf('Voucher', module)
     />)
     .add('Voucher Large', () => <Voucher
         type='voucher-lg'
-        large
     />)

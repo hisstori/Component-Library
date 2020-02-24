@@ -1,19 +1,24 @@
-.redeem {
+button {
+    background-color: #33a0ff;
+    color: #ffffff;
+}
+
+/* .input-redeem {
     color: #ffffff;
     background-color: #33a0ff;
     margin-left: -5px;
     padding: 5px;
+    border: 2px solid #f1f3f4; 
     border-left: none;
-    border: 2px solid #f1f3f4;
     font-weight: lighter;
-    /* font-size: 8px; */
-}
+} */
 
 input {
     font-size: 10px;
 }
 
 .input-voucher {
+    display: inline-block;
     padding: 5px;
     background-color: #ffffff;
     border: 2px solid #f1f3f4;
@@ -21,6 +26,9 @@ input {
 }
 
 .input-voucher-lg {
+    display: inline-block;
     padding: 10px;
     background-color: #ffffff;
+    border: 2px solid #f1f3f4;
+    outline: none;
 }

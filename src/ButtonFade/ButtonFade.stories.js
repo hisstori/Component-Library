@@ -5,48 +5,48 @@ import ButtonFade from './ButtonFade';
 
 
 storiesOf('ButtonFade', module)
-    .add('FadePrimary', () => <ButtonFade
-        label='FadePrimary'
+    .add('Fade Primary', () => <ButtonFade
+        label='Do Something'
         type='fadeprimary'
     />)
-    .add('FadeDanger', () => <ButtonFade
-        label='FadeDanger'
+    .add('Fade Danger', () => <ButtonFade
+        label='Do Something'
         type='fadedanger'
     />)
-    .add('FadeSuccess', () => <ButtonFade
-        label='FadeSuccess'
+    .add('Fade Success', () => <ButtonFade
+        label='Do Something'
         type='fadesuccess'
     />)
-    .add('FadeWarning', () => <ButtonFade
-        label='FadeWarning'
+    .add('Fade Warning', () => <ButtonFade
+        label='Do Something'
         type='fadewarning'
     />)
-    .add('FadeDefault', () => <ButtonFade
-        label='FadeDefault'
+    .add('Fade Default', () => <ButtonFade
+        label='Do Something'
         type='fadedefault'
     />)
-    .add('M-FadePrimary', () => <ButtonFade
-        label='M-FadePrimary'
+    .add('Medium Fade Primary', () => <ButtonFade
+        label='Do Something'
         type='fadeprimary'
         medium
     />)
-    .add('M-FadeDanger', () => <ButtonFade
-        label='M-FadeDanger'
+    .add('Medium Fade Danger', () => <ButtonFade
+        label='Do Something'
         type='fadedanger'
         medium
     />)
-    .add('M-FadeSuccess', () => <ButtonFade
-        label='M-FadeSuccess'
+    .add('Medium Fade Success', () => <ButtonFade
+        label='Do Something'
         type='fadesuccess'
         medium
     />)
-    .add('M-FadeWarning', () => <ButtonFade
-        label='M-FadeWarning'
+    .add('Medium Fade Warning', () => <ButtonFade
+        label='Do Something'
         type='fadewarning'
         medium
     />)
-    .add('M-FadeDefault', () => <ButtonFade
-        label='M-FadedDefault'
+    .add('Medium Fade Default', () => <ButtonFade
+        label='Do Something'
         type='fadedefault'
         medium
     />)

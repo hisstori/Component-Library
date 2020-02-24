@@ -5,47 +5,47 @@ import Button from './Button';
 
 storiesOf('Button', module)
     .add('Primary', () => <Button 
-        label="Primary" 
+        label="Do Something" 
         type="primary"
     />) 
     .add('Danger', () => <Button
-        label="Danger"
+        label="Do Something"
         type="danger"
     />)
     .add('Success', () => <Button
-        label="Success"
+        label="Do Something"
         type="success"
     />)
     .add('Warning', () => <Button
-        label="Warning"
+        label="Do Something"
         type="warning"        
     />)
     .add('Default', () => <Button
-        label="Default"
+        label="Do Something"
         type="default"
     />)
-    .add('M.Primary', () => <Button
-        label='M.Primary'
+    .add('Medium Primary', () => <Button
+        label='Do Something'
         type='primary'
         medium
     />)
-    .add('M.Danger', () => <Button
-        label='M.Danger'
+    .add('Medium Danger', () => <Button
+        label='Do Something'
         type='danger'
         medium
     />)
-    .add('M.Success', () => <Button
-        label='M.Success'
+    .add('Medium Success', () => <Button
+        label='Do Something'
         type='success'
         medium
     />)
-    .add('M.Warning', () => <Button
-        label='M.Warning'
+    .add('Medium Warning', () => <Button
+        label='Do Something'
         type='warning'
         medium
     />)
-    .add('M.Default', () => <Button
-        label='M.Default'
+    .add('Medium Default', () => <Button
+        label='Do Something'
         type='default'
         medium
     />)

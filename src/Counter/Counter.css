@@ -1,5 +1,5 @@
-button {
-    display: inline-block;
+.counts {
+    display: inline;
     color: #33a0ff;
     font-size: 10px;
     font-weight: bold;
@@ -7,22 +7,14 @@ button {
     border: 2px solid #fafafb;
     background-color: #fafafb;
 }
-/* 
-span{
-  width: 100px;
-} */
 
 .box {
-  display: inline-block;
   background-color:  #fafafb;
   font-size: 12px;
+  width: 150px;
 }
 
 .counter {
     background-color: #fafafb;
     color: #33a0ff;
 }
-
-/* .counts {
-  width: 100px;
-} */
