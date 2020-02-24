@@ -5,7 +5,7 @@ import './DropdownOutline.css';
 
 
 
-class Dropdown extends React.Component {
+class DropdownOutline extends React.Component {
     constructor () {
         super ();
 
@@ -13,28 +13,28 @@ class Dropdown extends React.Component {
             displayMenu: false,
         };
 
-    this.showDropdownMenu = this.showDropdownMenu.bind(this);
-    this.hideDropdownMenu = this.hideDropdownMenu.bind(this);
+    this.showDropdownOutlineMenu = this.showDropdownOutlineMenu.bind(this);
+    this.hideDropdownOutlineMenu = this.hideDropdownOutlineMenu.bind(this);
 
     };
 
-    showDropdownMenu(event) {
+    showDropdownOutlineMenu(event) {
         event.preventDefault();
         this.setState({ displayMenu: true }, () => {
-            document.addEventListener('click', this.hideDropdownMenu);
+            document.addEventListener('click', this.hideDropdownOutlineMenu);
         });
     }
 
-    hideDropdownMenu() {
+    hideDropdownOutlineMenu() {
         this.setState({ displayMenu: false }, () => {
-            document.addEventListener('click', this.hideDropdownMenu);
+            document.addEventListener('click', this.hideDropdownOutlineMenu);
         });
     }
 
     render () {
         return (
-            <div className='dropdown'>Select
-                <select className='button' onClick={this.showDropdownMenu}></select>
+            <div className='dropdown-outline'>Select
+                <select className='button' onClick={this.showDropdownOutlineMenu}></select>
 
                 { this.state.displayMenu ? (
                     <ul>
@@ -53,6 +53,6 @@ class Dropdown extends React.Component {
     }
 }
 
-ReactDOM.render(<Dropdown />, document.getElementById('root'));
+ReactDOM.render(<DropdownOutline />, document.getElementById('root'));
 
-export default Dropdown;
+export default DropdownOutline;
