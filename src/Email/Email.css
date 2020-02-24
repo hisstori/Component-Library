@@ -6,6 +6,11 @@ label {
     font-size: 12px;
 }
 
+.email {
+    color: #000000;
+    background-color: #ffffff;
+}
+
 .input-email {
     background-color: #ffffff;
     border: 2px solid #f1f3f4;
