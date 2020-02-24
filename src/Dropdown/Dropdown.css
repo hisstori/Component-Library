@@ -1,0 +1,26 @@
+.button {
+    float: right;
+    font-size: 8px;
+    border: 2px solid #fafafb;
+    max-width: 200px;
+    outline: none;
+}
+
+.dropdown {
+    font-size: 10px;
+    background-color: #fafafb;
+    border-radius: 3px;
+    border: 2px solid #ffffff;
+    max-width: 150px;
+    padding: 5px;
+    outline: none;
+}
+
+.dropdown-medium {
+    background-color: #fafafb;
+    border-radius: 3px;
+    border: 2px solid #ffffff;
+    max-width: 150px;
+    padding: 10px;
+    outline: none;
+}
