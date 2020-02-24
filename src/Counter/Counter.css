@@ -1,0 +1,26 @@
+button {
+    background-color: #fafafb;
+    color: #33a0ff;
+    font-size: 10px;
+    font-weight: bold;
+    outline: none;
+    border: 2px solid #fafafb;
+    /* width:; */
+}
+
+div {
+  background-color:  #fafafb;
+  color: #33a0ff
+}
+
+.counter {
+    background-color: #33a0ff1a;
+    color: #33a0ff00;
+    /* border: 1px solid #ffffff; */
+    /* padding: 10px 15px; */
+    /* background-image: url('../cart.svg');
+    background-position-x: 0.26cm;
+    background-position-y: 0.2cm;
+    background-size: 16px;
+    background-repeat: no-repeat; */
+}
