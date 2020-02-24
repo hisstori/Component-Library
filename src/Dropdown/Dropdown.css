@@ -1,6 +1,7 @@
 .button {
     float: right;
     font-size: 8px;
+    background-color: #fafafb;
     border: 2px solid #fafafb;
     max-width: 200px;
     outline: none;
